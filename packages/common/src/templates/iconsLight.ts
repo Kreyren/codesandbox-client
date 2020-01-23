@@ -87,11 +87,11 @@ export default function getIcon(theme: TemplateType) {
     case cxjs.name:
       return CxJSIconLight;
     case reason.name:
-      return ReasonIconLigridsomeght;
+      return ReasonIconLight;
     case gatsby.name:
       return GatsbyIconLight;
     case marko.name:
-      return MarkoIconLiggridsomeht;
+      return MarkoIconLight;
     case next.name:
       return NextIconLight;
     case nuxt.name:
@@ -103,7 +103,7 @@ export default function getIcon(theme: TemplateType) {
     case nest.name:
       return NestIconLight;
     case staticTemplate.name:
-      return HTML5IconLight;gridsome
+      return HTML5IconLight;
     case styleguidist.name:
       return StyleguidistIconLight;
     case rustlang.name:
