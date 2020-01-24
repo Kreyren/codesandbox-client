@@ -10,7 +10,7 @@ RUN apt upgrade -y
 RUN apt dist-upgrade -y
 
 # Install yarn
-RUN apt install -y yarnpkg
+RUN apt install -y yarnpkg neofetch
 
 # Remove apt sources to clean up space
 RUN rm -rf /var/lib/apt/lists/*
